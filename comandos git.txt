@@ -1,0 +1,65 @@
+Fernando@DESKTOP-J45AOOI MINGW64 ~/Documents/GIT REPO (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Fernando/Documents/GIT it/
+
+Fernando@DESKTOP-J45AOOI MINGW64 ~/Documents/GIT REPO (master)
+$ git user.name "WilliamLopezJ"
+git: 'user.name' is not a git command. See 'git --help'.
+
+Fernando@DESKTOP-J45AOOI MINGW64 ~/Documents/GIT REPO (master)
+$ git config user.name "WilliamLopezJ"
+
+Fernando@DESKTOP-J45AOOI MINGW64 ~/Documents/GIT REPO (master)
+$ git config user.email "wflopezj@gmail.com"
+
+Fernando@DESKTOP-J45AOOI MINGW64 ~/Documents/GIT REPO (master)
+$ git config user.password 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      
+Fernando@DESKTOP-J45AOOI MINGW64 ~/Documents/GIT REPO (master)
+$ git remote add origin https://github.com/WilliamLopezJ/pruebagit.git
+
+Fernando@DESKTOP-J45AOOI MINGW64 ~/Documents/GIT REPO (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Hola.txt
+
+Fernando@DESKTOP-J45AOOI MINGW64 ~/Documents/git repo (master)
+$ git add Hola.txt
+
+Fernando@DESKTOP-J45AOOI MINGW64 ~/Documents/git repo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Hola.txt
+
+
+Fernando@DESKTOP-J45AOOI MINGW64 ~/Documents/GIT REPO (master)
+$ git commit -m "estoy seguro de este commit 1"
+[master (root-commit) 239c4dd] estoy seguro de este commit 1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Hola.txt
+
+Fernando@DESKTOP-J45AOOI MINGW64 ~/Documents/GIT REPO (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 238 bytes | 238.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/WilliamLopezJ/pruebagit/pull/new/master
+remote:
+To https://github.com/WilliamLopezJ/pruebagit.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+Fernando@DESKTOP-J45AOOI MINGW64 ~/Documents/GIT REPO (master)
+$
